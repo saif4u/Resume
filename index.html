@@ -528,16 +528,24 @@
   .cert-item:hover { border-color: var(--gold); }
 
   .cert-icon {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     background: rgba(255,209,102,0.1);
     border: 1px solid rgba(255,209,102,0.2);
-    border-radius: 6px;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 14px;
     flex-shrink: 0;
+    overflow: hidden;
+    padding: 8px;
+  }
+
+  .cert-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 
   .cert-name {
@@ -929,56 +937,56 @@
     </div>
     <div class="certs-grid">
       <div class="cert-item">
-        <div class="cert-icon">🎓</div>
+        <div class="cert-icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/atlassian.svg" width="22" style="filter:invert(1)"/></div>
         <div>
           <div class="cert-name">IT Service Management (ITSM) Professional Certificate</div>
           <div class="cert-issuer">Atlassian</div>
         </div>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">🏆</div>
+        <div class="cert-icon"><img src="https://asset.brandfetch.io/idFGbFEVvl/idmFRMUos1.png" width="22"/></div>
         <div>
           <div class="cert-name">Customer Success Foundations Professional Certificate</div>
           <div class="cert-issuer">ChurnZero</div>
         </div>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">⭐</div>
+        <div class="cert-icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/zendesk.svg" width="22" style="filter:invert(1)"/></div>
         <div>
           <div class="cert-name">Customer Service Professional Certificate</div>
           <div class="cert-issuer">Zendesk</div>
         </div>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">🎯</div>
+        <div class="cert-icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="22" style="filter:invert(1)"/></div>
         <div>
           <div class="cert-name">Customer Experience Leadership</div>
           <div class="cert-issuer">LinkedIn Learning</div>
         </div>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">🗺</div>
+        <div class="cert-icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="22" style="filter:invert(1)"/></div>
         <div>
           <div class="cert-name">Customer Experience: Journey Mapping</div>
           <div class="cert-issuer">LinkedIn Learning</div>
         </div>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">💻</div>
+        <div class="cert-icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="22" style="filter:invert(1)"/></div>
         <div>
           <div class="cert-name">IT Service Desk: Customer Service Fundamentals</div>
           <div class="cert-issuer">LinkedIn Learning</div>
         </div>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">🤖</div>
+        <div class="cert-icon"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="22" style="filter:invert(1)"/></div>
         <div>
           <div class="cert-name">Introduction to Prompt Engineering for Generative AI</div>
           <div class="cert-issuer">LinkedIn Learning</div>
         </div>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">⚡</div>
+        <div class="cert-icon" style="font-size:18px;font-family:'Syne',sans-serif;font-weight:800;color:var(--gold);background:rgba(255,209,102,0.1);border:1px solid rgba(255,209,102,0.2);">B</div>
         <div>
           <div class="cert-name">AI Productivity Hacks to Reimagine Your Workday</div>
           <div class="cert-issuer">Be10X</div>
