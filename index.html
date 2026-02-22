@@ -351,18 +351,20 @@
   }
 
   .exp-bullets li {
-    display: flex;
-    gap: 10px;
+    display: block;
     color: #C9D1D9;
     font-size: 13.5px;
     line-height: 1.7;
+    padding-left: 16px;
+    position: relative;
   }
 
   .exp-bullets li::before {
     content: '▸';
     color: var(--accent);
-    flex-shrink: 0;
-    margin-top: 1px;
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 
   .exp-bullets li strong {
